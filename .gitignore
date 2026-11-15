@@ -1,0 +1,8 @@
+﻿node_modules/
+dist/
+dist-*.txt
+*.bak
+*.tmp-*
+# 生成链的输入是原页 HTML；仓库里只放「去作者标记后」的中间件
+scripts/source/source-original.html
+scripts/source/wb-nosrc.html

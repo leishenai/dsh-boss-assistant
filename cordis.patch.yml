@@ -1,0 +1,6 @@
+- insert:
+    - id: boss-assistant
+      name: dsh-boss-assistant
+      config:
+        root: !!js dshHomePath('boss-assistant')
+        maxSnapshots: 40

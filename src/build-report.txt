@@ -1,0 +1,5 @@
+作者标记：0 处 → 0（js 与 css）
+内联事件嵌套引号：4 处改为 \x27 转义
+启动副作用与外壳绑定已剥离，改由 React 外壳 mount/bindShell
+持久化：localStorage → 宿主 /api/boss-assistant/state（rev 乐观锁 + 冲突回读）
+render() 改为可重复挂载（重复 render 不叠加监听与弹窗）
